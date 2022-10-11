@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "W0501PreCardDealer"
+rootProject.name = "W0601CardViewModel"
 include ':app'

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'kr.ac.kumoh.prof.w0501precarddealer'
+    namespace 'kr.ac.kumoh.s20200370.w0601cardviewmodel'
     compileSdk 32
 
     defaultConfig {
-        applicationId "kr.ac.kumoh.prof.w0501precarddealer"
+        applicationId "kr.ac.kumoh.s20200370.w0601cardviewmodel"
         minSdk 21
         targetSdk 32
         versionCode 1
