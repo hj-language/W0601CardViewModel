@@ -10,7 +10,7 @@ import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-    private val model: CardViewModel by viewModels()    // camelCase로 작성
+    private val model: CardViewModel by viewModels()    // ViewModels 클래스명과 다르게 camelCase로 작성
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -17,7 +17,7 @@ class CardViewModel: ViewModel() {
 
     fun deal() {
         var c = IntArray(5, {-1})
-        var temp = 0
+        var temp = -1
         for (i in 0 until c.size) {
             while (c.contains(temp))
                 temp = Random.nextInt(52)
